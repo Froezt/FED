@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <img class="logo" src="images/logo.png" alt="Logo">
+    <h1 class="naam">Schaderegelingsburo <br> R.P. van Dijk</h1>
+    <div class="topnav" id="myTopnav">
+        <a class="link-3" href="Index.html">Home</a>
+        <a class="link-3" href="Diensten.html">Diensten</a>
+        <a class="link-3" href="Klachtenregeling.html">Klachtenregeling</a>
+        <div class="dropdown">
+            <a class="dropbtn" href="Organisatie.html">Organisatie
+            </a>
+            <div class="dropdown-content">
+                <a href="Secretariaat.html">Secretariaat</a>
+                <a href="Experts.html">Experts</a>
+            </div>
+        </div>
+        <a class="link-3" href="Bezoek.html">Bezoek</a>
+        <a class="link-3" href="Vacatures.html">Vacatures</a>
+        <a class="link-3" href="Contact.html" id="active">Contact</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div class="bg">
+        <div class="box">
+            <div class="square">
+                <form>
+                    <fieldset>
+                        <legend>Contact</legend>
+                        <input type="radio" name="gender">De heer
+                        <input type="radio" name="gender">Mevrouw
+                        <label name="naam">Naam:</label>
+                        <input type="text" name="naam" placeholder="Uw naam.." class="textfield">
+                        <label name="mail">Email:</label>
+                        <input type="email" name="mail" placeholder="Uw email.." class="textfield">
+                        <label name="nummer">Telefoonnummer:</label>
+                        <input name="nummer" type="text" class="textfield">
+                        <label name="bericht">Bericht:</label>
+                        <textarea rows="6" cols="80" name="Bericht" placeholder="Schrijf iets.."> </textarea><br><br>
+                        <input type="submit" value="Submit" id="stuurknop">
+                    </fieldset>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script src="java/java.js"></script>
+
+</body>
+
+</html>
